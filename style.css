@@ -30,6 +30,13 @@ h1 {
     font-size: 74px;
     line-height: 90%;
 }
+h2 {
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+}
 .p_3 {
     font-size: 16px;
 }
@@ -39,7 +46,23 @@ h1 {
     max-width: fit-content;
     gap: 500px;
 }
-
+.sekce_2 {
+    background-color: #181818;
+    color: white;
+}
+.sekce_3 {
+    background-color: #F5F2EA;
+}
+.sekce_4 {
+    background-color: #D8FF45;
+}
+.sekce_5 {
+    background-color: #6758F5;
+    color: white;
+}
+a {
+    color: white;
+}
 .sekce_1_horní_txt {
     display: flex;
     flex-direction: row;
@@ -56,4 +79,20 @@ h1 {
     padding: 28px;
     transition: all 0.3s ease;
     background-color: #F5F2EA;
+}
+.Evizitka_Bento {
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
+    align-items: center;
+}
+.střed {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.back {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
 }
